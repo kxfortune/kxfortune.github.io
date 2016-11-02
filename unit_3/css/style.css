@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section image {
+	width: 100%;
+}
+
+h2 {
+	font-weight: normal;
+}
+a {
+	font-style: italic;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+}
