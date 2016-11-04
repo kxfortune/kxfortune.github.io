@@ -10,8 +10,17 @@ body{
 	position: relative;
 }
 #hero{
-	background:url(...images/office.jpg) no-repeat center center scroll;
+	background: url(../images/office.jpg) no-repeat center center scroll;
 	background-size: cover;
+	font-size:2em;
+	padding: 5em 0 0;
+	height: 90vh;
+}
+#hero div {
+    position: absolute;
+    right: 1em;
+    width: 18em;
+    transform: skewY(-5deg);
 }
 
 .projects{
