@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+}
+#hero{
+	background:url(...images/office.jpg) no-repeat center center scroll;
+	background-size: cover;
+}
+
+.projects{
+ 	width:35em;
+ 	margin:2em auto;
+}
+
+/*section image {
+	width: 100%;
+}*/
+
+h2 {
+	font-weight: normal;
+}
+a {
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+}
