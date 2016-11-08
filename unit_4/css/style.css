@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,38 +8,73 @@
 }
 
 body{
+	font-family: "Lato", serif;
 	font-size: 16px;
 	text-align: center;
 	position: relative;
 }
+
+nav a {
+	font-family: "Trirong";
+	text-transform: uppercase;
+	padding: 20px;
+	text-decoration: none;
+	color: #000000
+	display: inline-block;
+	margin: 2em;
+}
 #hero{
-	background: url(../images/office.jpg) no-repeat center center scroll;
+	background: url(../images/office2.jpg) no-repeat center center scroll;
 	background-size: cover;
-	font-size:2em;
-	padding: 5em 0 0;
+	font-size: 2em;
+	padding: 0 2em 0;
 	height: 90vh;
 }
 #hero div {
     position: absolute;
-    right: 1em;
+/*    right: 1em;*/
     width: 18em;
-    transform: skewY(-5deg);
+/*    transform: skewY(-5deg);*/
+}
+
+#hero div h1 {
+	font-family: "Trirong";
+	font-size: .5em;
+	text-transform: uppercase;
+}
+
+#hero div p {
+	font-size: .5em;
+	text-align: justify;
+	padding: 2em 0 0;
+	line-height: 1.5em;
 }
 
 .projects{
- 	width:35em;
- 	margin:2em auto;
+	font-size: 20px;
+ 	width: 25em;
+ 	margin: 2em auto;
 }
 
-/*section image {
+h2 {
+	padding-top: 10px;
+	font-family: "Trirong";
+}
+
+h3 {
+	padding: 10px;
+}
+
+/*}
+section image {
 	width: 100%;
 }*/
 
-h2 {
-	font-weight: normal;
-}
-a {
-	text-decoration: none;
+hr {
+	border: none:
+	height: 3px;
+	background-color: black;
+	margin: 2em auto;
 }
 
 footer {
