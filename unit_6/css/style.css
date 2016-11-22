@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+}
+
+nav{
+	text-align: center;
+	background-color: #D0DAFF;
+}
+nav a {
+	font-family: "Trirong" Georgia, serif;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #000000;
+	display: inline-block;
+}
+nav a:hover {
+	color: blue;
+}
+#hero{
+	background: url(../images/office2.jpg) no-repeat center center scroll;
+	background-size: cover;
+	font-size: 2em;
+	padding: 0 2em 0;
+	height: 90vh;
+}
+#hero div {
+    position: absolute;
+    padding-top: 4em;
+/*    right: 1em;*/
+    width: 18em;
+/*    transform: skewY(-5deg);*/
+}
+
+#hero div h1 {
+	font-family: "Trirong" Georgia, serif;
+	font-size: .5em;
+    font-variant: small-caps;
+}
+
+#hero div p {
+	font-size: .5em;
+	width: 470px;
+	text-align: justify;
+	padding: 2em 2em 0 2em;
+	margin: auto;
+	line-height: 1.5em;
+}
+span {
+  font-variant: small-caps;
+  padding: .75em;
+  background: #D0DAFF;
+/*  background: rgba(100,150,150,.5);*/
+}
+#column_left {
+    background-color: #D0DAFF;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+#column_right {
+    background-color: #D0DAFF;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 50%;
+}
+.projects{
+	font-size: 20px;
+ 	width: 25em;
+ 	margin: 10px auto;
+ 	background-color: #FFE2B8;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+h2 {
+	padding: 10px;
+	font-family: "Trirong" Georgia, serif;
+/*	background-color: #D0DAFF;*/
+}
+
+h3 {
+	padding: 10px;
+}
+
+/*}
+section image {
+	width: 100%;
+}*/
+
+hr {
+	border: none:
+	height: 3px;
+	background-color: black;
+	margin: 1em auto;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+/*	background-color: #D0DAFF;*/
+}
+
+footer p {
+	padding: 5px;
+}
