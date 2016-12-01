@@ -29,6 +29,11 @@ nav a {
 nav a:hover {
 	color: blue;
 }
+
+nav a:visited {
+	color: purple;
+}
+
 #hero{
 	background: url(../images/office2.jpg) no-repeat center center scroll;
 	background-size: cover;
@@ -39,24 +44,25 @@ nav a:hover {
 #hero div {
 /*    position: absolute;*/
     padding-top: 2em;
-/*    right: 1em;*/
-    width: 18em;
+    width: 16em;
 /*    transform: skewY(-5deg);*/
 }
 
-#hero div h1 {
-	font-size: .5em;
-/*	font-weight: normal;*/
-	padding: 2em;
-}
-
 #hero div p {
-	font-size: .5em;
-	width: 470px;
+	font-size: .6em;
+/*	width: 470px;*/
 	text-align: justify;
 	padding: 1em 2em 0 2em;
 	margin: auto;
 	line-height: 1.5em;
+}
+
+h1{
+	font-size: .6em;
+	font-weight: normal;
+	text-align: justify;
+	line-height: 1.5em;
+	padding: 2em;	
 }
 
 h2 {
@@ -69,16 +75,26 @@ h3 {
 	padding: 10px;
 }
 
-#projects {
-	width: 50%;
+.wrapper{
+	background-color: purple;
+}
+
+.projects {
+	width: 25%;
 	float: left;
 	margin: 10px auto;
 	background-color: #FFE2B8;
 }
 
-#projects div p {
-	width: 400px;
-	text-align: justify;
+.projects img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.projects p {
+	width: 80%;
+/*	text-align: justify;*/
 	padding: 1em 2em 0 2em;
 	margin: auto;
 	line-height: 1.5em;	
@@ -90,35 +106,6 @@ h3 {
   background: #D0DAFF;
   background: rgba(100,150,150,.5);
 }
-*/
-/*#column_left {
-    background-color: #D0DAFF;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 50%;
-}
-#column_right {
-    background-color: #D0DAFF;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;
-    width: 50%;
-}
-.projects{
-	font-size: 20px;
- 	width: 25em;
- 	margin: 10px auto;
- 	background-color: #FFE2B8;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}*/
 
 /*section image {
 	width: 100%;
