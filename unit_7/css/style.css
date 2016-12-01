@@ -105,13 +105,13 @@ a {
 	float: left;
 	margin: auto;
 	height: 70h;
+	overflow: hidden;
 }
 
 .projects img {
 	max-width: 100%;
 	display: block;
 	margin: auto;
-	overflow: hidden;
 }
 
 .projects p {
