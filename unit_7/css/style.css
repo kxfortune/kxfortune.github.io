@@ -13,34 +13,22 @@ body{
 	text-align: center;
 	position: relative;
 }
-/*header{
-	text-align: left;
-	padding: 10px 0 10px 20px;
-	background-color: #D0DAFF;
-}*/
 
-nav{
+nav {
 /*	font-size: 1em;*/
 	float: right;
 /*	text-align: center;
 	background-color: #D0DAFF;*/
 }
+
 nav a {
 	text-transform: uppercase;
 	text-decoration: none;
-	color: darkblue;
+	color: rgba(2,2,33,.5);
 	background-color: #fff;
-/*	font-size: 1.5em;*/
 	display: inline-block;
 	margin-top: 1em;
 	padding: 5px 60px 5px 70px;
-	/*	color: #000000*/
-/*	font-family: "Trirong", Georgia, serif;
-	text-transform: uppercase;
-	padding: 5px 40px;
-	text-decoration: none;
-	color: #000000;
-	display: inline-block;*/
 }
 nav a:hover {
 	background-color: #ccc;
@@ -51,18 +39,19 @@ nav a:hover {
 }*/
 
 #hero {
-	background: url(../images/custom_kitchen_cabinetsSW.jpg) no-repeat scroll;
+/*	background: url(../images/custom_kitchen_cabinetsSW.jpg) no-repeat scroll;*/
+	background: url(../images/bench_003.jpg) no-repeat scroll;
 	background-size: cover;
 	font-size: 1em;
 	padding: 1em 2em 0;
-	height: 94vh;
+	height: 83vh;
 }
+
 #hero div {
 /*    position: absolute;*/
-    padding-top: 1em;
-    width: 68em;
+    padding: 2em 1em 2em 1em;
+    width: 100%;
     text-align: left;
-/*    transform: skewY(-5deg);*/
 }
 
 #hero div p {
@@ -74,77 +63,113 @@ nav a:hover {
 }
 
 h1{
-	font-size: 1.25em;
+	font-size: 1.5em;
+	font-family: "Trirong", serif;
 	line-height: 1.5em;
-	font-weight: normal;
+	color: rgb(31,10,2);
+/*	font-weight: normal;*/
 	width: 35em;
-	padding: 1.2em 0 3em 0;	
+	padding: 1.2em .5em 3em 0;	
 }
 h2 {
 	font-weight: normal;
-	padding: .5em;
-	background-color: #fff;
+	color: #ccc;
+	background: rgb(31,10,2);
+/*	background: rgb(2,2,33);*/
+	padding: 10px;
 }
 
 h3 {
-	padding: 10px;
+	padding: 1px;
 	font-size: 1.5em;
-/*	background-color: #D0DAFF;*/
+	color: rgb(2,2,33);
 }
 
 a {
-	color: darkblue;
+	color: #fff;
 }
 
-/*.wrapper{
+hr {
+	clear: both;
+	margin: 1em auto;
+	width: 33.33%;
+	color: rgb(2,2,33);
+}
+
+.wrapper clearfix {
 	background-color: purple;
 }
-*/
+
 .projects {
-	width: 33%;
+	width: 33.33%;
 	float: left;
 	margin: auto;
-	height: 70h;
+	background-color: rgb(2,2,33);
 }
 
 .projects img {
 	max-width: 100%;
 	display: block;
 	margin: auto;
-	overflow: hidden;
 }
 
 .projects p {
-	width: 80%;
-	padding: 1em;
-	text-align: justify-all;
+	padding: 4em 2em 4.4em 2em;
+	text-align: left;
+	font-size: 1.5em;
 	margin: auto;
+	color: #ccc;
 	line-height: 1.5em;	
+ 	background: rgb(2,2,33);
+/*	height: 21.45vw;*/
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear:both;
+}
+#buildouts {
+	background: url(../images/attic_music_room.jpg) no-repeat center center scroll;
+	background-size: cover;
+	font-size: 1em;
+	padding: 1em 2em 0;
+	height: 88vh;
+}
+#buildouts div {
+    padding: 2em 1em 2em 1em;
+    width: 33.33%;
+    text-align: left;
+}
+
+#buildouts div p {
+	font-size: 1.5em;
+	text-align: left;
+	padding: 1em;
+	line-height: 1.5em;
 }
 
 footer {
 	clear: both;
 	text-align: center;
-	background-color: #D0DAFF;
-}
-footer p {
-	padding: 5px;
+	background-color: rgb(31,10,2);
 }
 
-/*span {
-  padding: .25em;
-  background: #D0DAFF;
-  background: rgba(100,150,150,.5);
+footer p {
+	padding: 5px;
+	color: #ccc;
 }
-*/
+
 /*section image {
 	width: 100%;
 }
 
-hr {
+/*hr {
 	border: none:
 	height: 3px;
 	background-color: black;
 	margin: 1em auto;
-}
+}*/
 
