@@ -104,13 +104,13 @@ hr {
 	width: 33.33%;
 	float: left;
 	margin: auto;
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 	background-color: rgb(2,2,33);
-=======
+/*=======
 	height: 70h;
 	overflow: hidden;
 >>>>>>> origin/master
-}
+}*/
 
 .projects img {
 	max-width: 100%;
@@ -137,7 +137,7 @@ hr {
 	clear:both;
 }
 #buildouts {
-	background: url(../images/attic_music_room.jpg) no-repeat center center scroll;
+	background: url(../images/attic_music_room2.jpg) no-repeat center center scroll;
 	background-size: cover;
 	font-size: 1em;
 	padding: 1em 2em 0;
