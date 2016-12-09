@@ -6,16 +6,16 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    version="1.1"
-   id="svg4410"
-   viewBox="0 0 418.90172 67.473937"
-   height="19.042645mm"
-   width="118.22337mm">
+   id="svg3638"
+   viewBox="0 0 436.04455 87.47394"
+   height="24.68709mm"
+   width="123.06146mm">
   <title
-     id="title4530">Fortune Mistretta wordmark</title>
+     id="title3866">Fortune Mistretta wordmark</title>
   <defs
-     id="defs4412" />
+     id="defs3640" />
   <metadata
-     id="metadata4415">
+     id="metadata3643">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,14 +27,13 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-139.12057,-101.48237)"
+     transform="translate(-213.4063,-422.91096)"
      id="layer1">
     <g
-       id="g4231"
-       transform="translate(56.024514,-432.5678)">
+       id="g3811">
       <g
          id="g3459"
-         transform="translate(13.214286,-61.785715)">
+         transform="matrix(1.0409233,0,0,1.269532,140.66474,-333.52177)">
         <g
            id="flowRoot3374"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Archistico;-inkscape-font-specification:'Archistico Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -121,7 +120,8 @@
       </g>
       <g
          style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="text3356">
+         id="text3356"
+         transform="matrix(1.0409233,0,0,1.269532,137.01121,-253.26921)">
         <path
            d="m 132.1017,586.27753 -0.0854,0.68359 -1.7456,0 -1.3794,7.29981 q -0.54932,2.9541 -1.2207,4.29687 -0.65918,1.34277 -1.85547,2.0752 -1.2085,0.74462 -2.58789,0.74462 -1.84326,0 -2.90528,-0.67138 l 0.37842,-1.74561 0.41504,0 q 0.40283,1.91651 2.18506,1.91651 1.34277,0 2.36816,-0.97657 1.01319,-0.96435 1.67237,-4.49218 l 1.5747,-8.44727 -1.7456,0 0.0732,-0.68359 1.75781,0 0.62256,-3.02735 q 0.48828,-2.41699 1.58692,-3.33252 1.11084,-0.91552 2.63672,-0.91552 0.708,0 1.69677,0.32959 l 0.0732,-0.30518 0.50049,0 -0.47607,2.2583 -0.50049,0 q -0.15869,-1.78223 -1.57471,-1.78223 -1.80664,0 -2.4414,3.05176 l -0.78125,3.72315 1.75781,0 z"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:Perpetua;-inkscape-font-specification:'Perpetua Italic';letter-spacing:1.75px"
@@ -236,8 +236,8 @@
            id="path4229" />
       </g>
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#020221;stroke-width:0.97044766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 141.07142,577.00507 c 267.14286,0 267.14286,0 267.14286,0 l 0,0"
+         style="fill:none;fill-rule:evenodd;stroke:#020221;stroke-width:1.29375339;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 248.47465,477.44357 c 373.98886,0 373.98886,0 373.98886,0 l 0,0"
          id="path3370" />
     </g>
   </g>
