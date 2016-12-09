@@ -72,11 +72,12 @@ h1{
 	padding: 1.2em .5em 3em 0;	
 }
 h2 {
+	clear:both;
 	font-weight: normal;
 	color: #ccc;
 	background: rgb(31,10,2);
 /*	background: rgb(2,2,33);*/
-	padding: 10px;
+	padding: 15px;
 }
 
 h3 {
