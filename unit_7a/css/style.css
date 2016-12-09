@@ -101,33 +101,21 @@ hr {
 	background-color: purple;
 }
 
-.projects {
+.projects > div > * {
 	width: 33.33%;
 	float: left;
 	margin: auto;
-/*<<<<<<< HEAD*/
 	background-color: rgb(2,2,33);
-/*=======
-	height: 70h;
-	overflow: hidden;
->>>>>>> origin/master
-}*/
 }
-.projects img {
-	max-width: 100%;
-	display: block;
-	margin: auto;
-}
-
 .projects p {
-	padding: 4em 2em 4.4em 2em;
+	padding: 6.06vw 2em;
 	text-align: left;
 	font-size: 1.5em;
 	margin: auto;
 	color: #ccc;
-	line-height: 1.5em;	
- 	background: rgb(2,2,33);
-/*	height: 21.45vw;*/
+	line-height: 1.5em;
+	background: rgb(2,2,33);
+	/*	height: 21.45vw;*/
 }
 
 .clearfix:after {
